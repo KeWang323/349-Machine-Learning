@@ -1,0 +1,79 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{margin=1in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Final Project Proposal\\Predict GDP Dynamics Using Machine Learning}
+\author{Haikun Liu(hlg483), Ke Wang(kwp862), Feiying Liu(flq707), Shenghan Guo(sgf434)}
+\date{4/14/2016} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\hspace{.3cm}The proposed topic of our project is a study of GDP (Gross Domestic Product) dynamics using machine learning techniques. Specifically, we would like to build a forecast model based on the available data from previous year to predict the future tendency of GDP growth. \\
+
+\hspace{.3cm}Studying GDP study is rather an interesting topic. GDP is one of the major public concerns. How it is and what it will be are crucial problems for politicians to consider when drafting new regulations and policies. Understanding the driving forces behind GDP leads to improvements in policies and hence increases social benefits. As well, the global economy has experienced dramatic oscillations in the past decades and is still going through occasional fluctuations. A considerable scholars and researcher are trying to find the cause of such oscillations and attempt to predict the future movement of economy. We believe that GDP, as a major indicator of a national economy, has remarkable predictive power and is worth for investigating.\\
+
+\hspace{.3cm}To achieve our objective, we will collect GDP data semiannually from early 2012 to the latest announced figure. The data is available at the website of IMF (International Monetary Fund). There is a group of semiannual data, which will be considered as attributes of a particular GDP data, such as inflation, unemployment rate, export/import, external debt, payment balance, capital flows, commodity price and etc. An attribute pruning process will be conducted later for selecting most relevant features.\\
+
+\hspace{.3cm}In terms of the approach, first, we will analyze the attributes and construct feature vectors, as well as the corresponding response vectors. Several rounds of feature selection will be conducted with different machine learning methods, such as logistic regression, random forest and etc., to insure the remaining attributes are all significantly influential to the GDP dynamic in a general machine learning sense. We will build different GDP prediction models using different machine learning approaches, such as SVM (Support Vector Machine), and evaluating their performances.\\
+
+\hspace{.3cm}For the verification of prediction model, one common approach is to study its ROC (Receiver Operating Characteristic) curve. The historical data from IMF will help us to test different models. For example, we can use the data from 2011 to 2014 to build models and the data from 2015 for testing. Once a promising model is found, we can use the latest data to forecast the following GDP growth.\\
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,47 @@
+1.Which attributes appear to have outliers?
+
+Fixed acidity, volatile acidity, citric acid, chlorides, free sulfur dioxide and total sulfur dioxide.
+
+2.What is the accuracy - the percentage of correctly classified instances - achieved by ZeroR when you run it on the training set? Explain this number. How is the accuracy of ZeroR a helpful baseline for interpreting the performance of other classifiers?
+
+62.381%. 
+
+It means the most common class consists 62.381% of the entire dataset.
+
+It doesn't consider the other attributes so it is the simplest classifier with the minimum performance which you can compare with other classifiers.
+
+3.Using a decision tree Weka learned over the training set, what is the most informative single feature for this task, and what is its influence on wine quality?
+
+Alcohol. 
+
+Alcohol is the first node of the decision tree, which means it can achive the highest performance by splitting the whole dataset according to alcohol value. The quality tends to be good when alcohol is > 10.8 and bad when alcohol is < 10.8. What`s more, if the value of alcohol is > 12, then the wine quality is good.
+
+4.What is 10-fold cross-validation? What is the main reason for the difference between the percentage of Correctly Classified Instances when you measured accuracy on the training set itself, versus when you ran 10-fold cross-validation over the training set? Why is cross-validation important?
+
+10-fold cross-validation means the whole training dataset is randomly partitioned into 10 equal sized subsets. 9 subsets are used as training data and 1 subset is used to test the model.
+
+If we measure the accuracy on the training set itself, there will be the problem of overfitting. And the accuracy is the same to the extent we train the model. But for 10-fold cross-validation, we use part of the original data to test the model and avoid overfitting.
+
+It is important when an explicit validation set is not available or the size of the training data set is small, cross-validation is a way to predict the fit of a model to a hypothetical validation set.
+
+5.What is the "command-line" for the model you are submitting? For example, "J48 -C 0.25 -M 2". What is the reported accuracy for your model using 10-fold cross-validation?
+
+RandomForest -I 110 -K 0 -S 1
+
+90.8995%
+
+6.In a few sentences, describe how you chose the model you are submitting. Be sure to mention your validation strategy and whether you tried varying any of the model parameters.
+
+I tried all the models of the trees with the default setting for each of them. I found the RandomForest -I 100 -K 0 -S 1 has the best performance among all classifiers and I changed numTreesfrom 100 to 110, so it achieved 90.8995% accuracy using 10-fold cross-validation.
+
+7.A Wired article from several years ago on the 'Peta Age' suggests that increasingly huge data sets, coupled with machine learning techniques, makes model building obsolete. In particular it says: This is a world where massive amounts of data and applied mathe-matics replace every other tool that might be brought to bear. Out with every theory of human behavior, from linguistics to sociology. Forget taxonomy, ontology, and psychology In a short paragraph (about four sentences), state whether you agree with this statement, and why or why not.
+
+I just agree with part of the author`s viewpoint. It`s true that with the increase of the size of the dataset, we can build a lot of model which can take the place of order ones. But no mater what machine learning technology we utilize, the model can not be as precise as some science which we human has worked on for years. So both machine learning and classical science are worth developing.
+
+8.Briefly explain what strategy you used to obtain the Classifiers A and B that performed well on one of the car or wine data sets, and not the other.
+
+I preformed most of the classifiers in Weka nad I found RandomForest -I 110 -K 0 -S 1 which got 90.8998% for wine data and 93.3613% for car data. And I utilized LWL -U 0 -K -1 -A resulting in 80.9524% for wine and 70.5042% for car. All results are based on 10-fold cross-validation. So equation wine_acc(A) + car_acc(B) ¨C wine_acc(B) ¨C car_acc(A) = 12.91%.
+
+9.What is the key difference about the output space for the car task, as compared to the wine task?
+
+Two output spaces are both classification issues. The output of car task has 4 categories - {unacc, acc, good, vgood}. However, the output of wine task is just {good, bad}. 

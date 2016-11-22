@@ -1,0 +1,240 @@
+numinjured < 1.0
+|  oppnuminjured < 1.0
+|  |  oppwinningpercent < 0.366154144
+|  |  |  --->0
+|  |  oppwinningpercent >= 0.366154144
+|  |  |  numinjured < -1.0
+|  |  |  |  --->0
+|  |  |  numinjured >= -1.0
+|  |  |  |  temperature < 66.72394947
+|  |  |  |  |  --->1
+|  |  |  |  temperature >= 66.72394947
+|  |  |  |  |  temperature < 67.64788837
+|  |  |  |  |  |  --->0
+|  |  |  |  |  temperature >= 67.64788837
+|  |  |  |  |  |  --->1
+|  oppnuminjured >= 1.0
+|  |  opprundifferential < 13.0
+|  |  |  --->1
+|  |  opprundifferential >= 13.0
+|  |  |  rundifferential < 7.0
+|  |  |  |  --->1
+|  |  |  rundifferential >= 7.0
+|  |  |  |  opprundifferential < 25.0
+|  |  |  |  |  rundifferential < 66.0
+|  |  |  |  |  |  --->0
+|  |  |  |  |  rundifferential >= 66.0
+|  |  |  |  |  |  --->1
+|  |  |  |  opprundifferential >= 25.0
+|  |  |  |  |  rundifferential < 82.0
+|  |  |  |  |  |  oppdayssincegame < 1.0
+|  |  |  |  |  |  |  oppwinningpercent < 0.723451267
+|  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  oppwinningpercent >= 0.723451267
+|  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  oppdayssincegame >= 1.0
+|  |  |  |  |  |  |  --->0
+|  |  |  |  |  rundifferential >= 82.0
+|  |  |  |  |  |  winpercent < 0.583358384
+|  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  winpercent >= 0.583358384
+|  |  |  |  |  |  |  --->1
+numinjured >= 1.0
+|  oppnuminjured < 4.0
+|  |  temperature < 48.44667111
+|  |  |  --->0
+|  |  temperature >= 48.44667111
+|  |  |  rundifferential < 120.0
+|  |  |  |  opprundifferential < 106.0
+|  |  |  |  |  oppwinningpercent < 0.195529965
+|  |  |  |  |  |  oppwinningpercent < 0.009730027
+|  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  oppwinningpercent >= 0.009730027
+|  |  |  |  |  |  |  opprundifferential < 16.0
+|  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  opprundifferential >= 16.0
+|  |  |  |  |  |  |  |  rundifferential < 113.0
+|  |  |  |  |  |  |  |  |  winpercent < 0.317461972
+|  |  |  |  |  |  |  |  |  |  winpercent < 0.263572378
+|  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  winpercent >= 0.263572378
+|  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  winpercent >= 0.317461972
+|  |  |  |  |  |  |  |  |  |  oppwinningpercent < 0.185470354
+|  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  oppwinningpercent >= 0.185470354
+|  |  |  |  |  |  |  |  |  |  |  oppnuminjured < 2.0
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  oppnuminjured >= 2.0
+|  |  |  |  |  |  |  |  |  |  |  |  winpercent < 0.631807706
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  winpercent >= 0.631807706
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  rundifferential >= 113.0
+|  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  oppwinningpercent >= 0.195529965
+|  |  |  |  |  |  oppnuminjured < 1.47356828194
+|  |  |  |  |  |  |  winpercent < 0.929746511
+|  |  |  |  |  |  |  |  temperature < 52.89468607
+|  |  |  |  |  |  |  |  |  temperature < 51.77719278
+|  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  temperature >= 51.77719278
+|  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  temperature >= 52.89468607
+|  |  |  |  |  |  |  |  |  opprundifferential < 64.0
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 1
+|  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 2
+|  |  |  |  |  |  |  |  |  |  |  oppnuminjured < 1.0
+|  |  |  |  |  |  |  |  |  |  |  |  numinjured < 3.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  dayssincegame < 4.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  dayssincegame >= 4.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  weather = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  weather = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  numinjured >= 3.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  weather = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  |  weather = -1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  oppnuminjured >= 1.0
+|  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 3
+|  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 4
+|  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 5
+|  |  |  |  |  |  |  |  |  |  |  dayssincegame < 3.0
+|  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  dayssincegame >= 3.0
+|  |  |  |  |  |  |  |  |  |  |  |  homeaway = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  oppdayssincegame < 2.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  oppdayssincegame >= 2.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  oppdayssincegame < 3.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  oppdayssincegame >= 3.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 2
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 3
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  weather = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  weather = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 4
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  homeaway = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  opprundifferential >= 64.0
+|  |  |  |  |  |  |  |  |  |  oppdayssincegame < 4.0
+|  |  |  |  |  |  |  |  |  |  |  dayssincegame < 2.47951273533
+|  |  |  |  |  |  |  |  |  |  |  |  weather = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 2
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 4
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  weather = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 2
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 4
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  weather = -1
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  dayssincegame >= 2.47951273533
+|  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  oppdayssincegame >= 4.0
+|  |  |  |  |  |  |  |  |  |  |  weather = 0
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  weather = 1
+|  |  |  |  |  |  |  |  |  |  |  |  numinjured < 2.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  numinjured >= 2.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 4
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  weather = -1
+|  |  |  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  winpercent >= 0.929746511
+|  |  |  |  |  |  |  |  dayssincegame < 4.0
+|  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  dayssincegame >= 4.0
+|  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  oppnuminjured >= 1.47356828194
+|  |  |  |  |  |  |  numinjured < 1.54372197309
+|  |  |  |  |  |  |  |  oppdayssincegame < 1.0
+|  |  |  |  |  |  |  |  |  startingpitcher = 3
+|  |  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  |  startingpitcher = 5
+|  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  oppdayssincegame >= 1.0
+|  |  |  |  |  |  |  |  |  dayssincegame < 1.0
+|  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  dayssincegame >= 1.0
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 1
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 0
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 1
+|  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 2
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 3
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 4
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  |  startingpitcher = 5
+|  |  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 2
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 0
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 1
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 3
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 0
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 1
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 4
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 0
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  |  homeaway = 1
+|  |  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  |  |  |  oppstartingpitcher = 5
+|  |  |  |  |  |  |  |  |  |  |  --->0
+|  |  |  |  |  |  |  numinjured >= 1.54372197309
+|  |  |  |  |  |  |  |  oppstartingpitcher = 1
+|  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  oppstartingpitcher = 2
+|  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  oppstartingpitcher = 3
+|  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  oppstartingpitcher = 4
+|  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  |  |  |  |  oppstartingpitcher = 5
+|  |  |  |  |  |  |  |  |  --->1
+|  |  |  |  opprundifferential >= 106.0
+|  |  |  |  |  --->0
+|  |  |  rundifferential >= 120.0
+|  |  |  |  --->0
+|  oppnuminjured >= 4.0
+|  |  oppstartingpitcher = 1
+|  |  |  --->0
+|  |  oppstartingpitcher = 2
+|  |  |  --->0
+|  |  oppstartingpitcher = 3
+|  |  |  --->0
+|  |  oppstartingpitcher = 4
+|  |  |  --->0
+|  |  oppstartingpitcher = 5
+|  |  |  --->0

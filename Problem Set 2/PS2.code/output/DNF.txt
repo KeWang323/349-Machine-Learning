@@ -1,0 +1,37 @@
+(numinjured < 1.0oppnuminjured < 1.0oppwinningpercent < 0.366154144--->0)OR
+(numinjured < 1.0oppnuminjured < 1.0oppwinningpercent >= 0.366154144numinjured < -1.0--->0)OR
+(numinjured < 1.0oppnuminjured < 1.0oppwinningpercent >= 0.366154144numinjured >= -1.0temperature < 66.72394947--->1)OR
+(numinjured < 1.0oppnuminjured < 1.0oppwinningpercent >= 0.366154144numinjured >= -1.0temperature >= 66.72394947temperature < 67.64788837--->0)OR
+(numinjured < 1.0oppnuminjured < 1.0oppwinningpercent >= 0.366154144numinjured >= -1.0temperature >= 66.72394947temperature >= 67.64788837--->1)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential < 13.0--->1)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential < 7.0--->1)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential >= 7.0opprundifferential < 25.0rundifferential < 66.0--->0)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential >= 7.0opprundifferential < 25.0rundifferential >= 66.0--->1)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential >= 7.0opprundifferential >= 25.0rundifferential < 82.0oppdayssincegame < 1.0oppwinningpercent < 0.723451267--->0)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential >= 7.0opprundifferential >= 25.0rundifferential < 82.0oppdayssincegame < 1.0oppwinningpercent >= 0.723451267--->1)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential >= 7.0opprundifferential >= 25.0rundifferential < 82.0oppdayssincegame >= 1.0--->0)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential >= 7.0opprundifferential >= 25.0rundifferential >= 82.0winpercent < 0.583358384--->0)OR
+(numinjured < 1.0oppnuminjured >= 1.0opprundifferential >= 13.0rundifferential >= 7.0opprundifferential >= 25.0rundifferential >= 82.0winpercent >= 0.583358384--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature < 48.44667111--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent < 0.195529965oppwinningpercent < 0.009730027--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent < 0.195529965oppwinningpercent >= 0.009730027opprundifferential < 16.0--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent < 0.195529965oppwinningpercent >= 0.009730027opprundifferential >= 16.0rundifferential < 113.0winpercent < 0.317461972--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent < 0.195529965oppwinningpercent >= 0.009730027opprundifferential >= 16.0rundifferential < 113.0winpercent >= 0.317461972--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent < 0.195529965oppwinningpercent >= 0.009730027opprundifferential >= 16.0rundifferential >= 113.0--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured < 1.47356828194winpercent < 0.929746511oppwinningpercent < 0.214639846winpercent < 0.457193808--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured < 1.47356828194winpercent < 0.929746511oppwinningpercent < 0.214639846winpercent >= 0.457193808--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured < 1.47356828194winpercent < 0.929746511oppwinningpercent >= 0.214639846winpercent < 0.901611692--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured < 1.47356828194winpercent < 0.929746511oppwinningpercent >= 0.214639846winpercent >= 0.901611692--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured < 1.47356828194winpercent >= 0.929746511dayssincegame < 4.0--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured < 1.47356828194winpercent >= 0.929746511dayssincegame >= 4.0--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured >= 1.47356828194numinjured < 1.54372197309opprundifferential < 19.0--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured >= 1.47356828194numinjured < 1.54372197309opprundifferential >= 19.0temperature < 70.89283035--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured >= 1.47356828194numinjured < 1.54372197309opprundifferential >= 19.0temperature >= 70.89283035--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured >= 1.47356828194numinjured >= 1.54372197309dayssincegame < 0.0--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured >= 1.47356828194numinjured >= 1.54372197309dayssincegame >= 0.0oppnuminjured < 3.0--->1)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential < 106.0oppwinningpercent >= 0.195529965oppnuminjured >= 1.47356828194numinjured >= 1.54372197309dayssincegame >= 0.0oppnuminjured >= 3.0--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential < 120.0opprundifferential >= 106.0--->0)OR
+(numinjured >= 1.0oppnuminjured < 4.0temperature >= 48.44667111rundifferential >= 120.0--->0)OR
+(numinjured >= 1.0oppnuminjured >= 4.0temperature < 62.69854496weather = 1--->1)OR
+(numinjured >= 1.0oppnuminjured >= 4.0temperature < 62.69854496weather = -1--->0)OR
+(numinjured >= 1.0oppnuminjured >= 4.0temperature >= 62.69854496--->0)
